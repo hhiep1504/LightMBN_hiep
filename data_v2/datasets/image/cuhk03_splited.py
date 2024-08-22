@@ -24,7 +24,7 @@ class CUHK03_splited(ImageDataset):
         - cameras: 6.
         - splits: 20 (classic).
     """
-    dataset_dir = 'CUHK03'
+    dataset_dir = '/kaggle/working/ReIDataset/CUHK03'
     #dataset_url = None
 
     def __init__(self, root='', split_id=0, cuhk03_labeled=False, cuhk03_classic_split=False, **kwargs):
